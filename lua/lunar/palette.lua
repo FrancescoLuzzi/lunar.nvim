@@ -52,6 +52,7 @@ local colors = {
   warning = "#e0af68",
   info = "#0db9d7",
   hint = "#1abc9c",
+  none = "NONE",
 }
 
 return colors
