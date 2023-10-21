@@ -53,7 +53,7 @@ bg_visual = '#2d59a1'        # util.darken(colors.blue0, 0.7)
 bg_search = '#3d59a1'
 fg_sidebar = '#a9b1d6'
 black = '#000000'            # util.darken(colors.bg, 0.8, "#000000")
-border = '#000000'           # util.darken(colors.bg, 0.8, "#000000")
+border = '#9fa5c2'           # util.darken(colors.bg, 0.8, "#9fa5c2")
 
 error = '#db4b4b'
 warning = '#e0af68'
