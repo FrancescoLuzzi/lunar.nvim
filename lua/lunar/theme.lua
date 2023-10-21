@@ -300,6 +300,9 @@ theme.set_highlights = function()
   hl(0, "LspCodeLens", { fg = c.comment, bg = c.none, italic = true, })
   hl(0, "LspCodeLensSeparator", { fg = c.comment, bg = c.none, italic = true, })
 
+  -- LSP Inlay Hints
+  hl(0, "LspInlayHint", { fg = c.comment, bg = c.none })
+
   -- Quickscope
   hl(0, "QuickScopePrimary", { fg = '#ff00ff', bg = c.none, bold = true, })
   hl(0, "QuickScopeSecondary", { fg = '#00ffff', bg = c.none, bold = true, })
