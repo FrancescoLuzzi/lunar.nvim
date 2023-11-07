@@ -72,7 +72,7 @@ theme.set_highlights = function()
   hl(0, "Character", { fg = c.green, bg = c.none })
   hl(0, "Number", { fg = c.orange, bg = c.none })
   hl(0, "Float", { fg = c.orange, bg = c.none })
-  hl(0, "Boolean", { fg = c.orange, bg = c.none })
+  hl(0, "Boolean", { fg = c.ocra, bg = c.none })
   hl(0, "Constant", { fg = c.orange, bg = c.none })
   hl(0, "Function", { fg = c.blue, bg = c.none })
   hl(0, "Statement", { fg = c.magenta, bg = c.none })
@@ -447,7 +447,7 @@ theme.set_highlights = function()
   hl(0, "NavicIconsConstant", { fg = c.magenta, bg = c.none })
   hl(0, "NavicIconsString", { fg = c.green, bg = c.none })
   hl(0, "NavicIconsNumber", { fg = c.orange, bg = c.none })
-  hl(0, "NavicIconsBoolean", { fg = c.orange, bg = c.none })
+  hl(0, "NavicIconsBoolean", { link = 'Boolean' })
   hl(0, "NavicIconsArray", { fg = c.orange, bg = c.none })
   hl(0, "NavicIconsObject", { fg = c.orange, bg = c.none })
   hl(0, "NavicIconsKey", { fg = c.purple, bg = c.none })
@@ -510,4 +510,3 @@ theme.set_highlights = function()
 end
 
 return theme
-

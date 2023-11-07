@@ -21,6 +21,7 @@ local colors = {
   magenta2 = "#ff007c",
   purple = "#9d7cd8",
   orange = "#ff9e64",
+  ocra = "#e0c868",
   yellow = "#e0af68",
   green = "#9ece6a",
   green1 = "#73daca",
@@ -56,3 +57,4 @@ local colors = {
 }
 
 return colors
+
